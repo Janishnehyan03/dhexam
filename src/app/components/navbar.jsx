@@ -20,23 +20,26 @@ function Navbar() {
         >
           <img className="h-20 mr-3" src="/logo.png" alt="" />
           <div className="text-center">
-            <h1 className="font-bold text-[10px] text-center uppercase text-[#251e74]">
+            {/* <h1 className="font-bold text-[10px] text-center uppercase text-[#251e74]">
               Office Of the Controller Of Examinations
             </h1>
             <h1 className="text-[#251e74]  font-bold text-xl">
               مكتب مراقب الامتحانات
-            </h1>
+            </h1> */}
+              <img src="/english.png" className="h-5" alt="" />
+            <img src="/arabic text.png" className="h-10" alt="" />
           </div>
         </Link>
 
         <div className="hidden lg:flex">
           <div className="text-center flex flex-col items-center">
-            <h1 className="font-bold text-[12px] text-center uppercase text-[#212121]">
+            {/* <h1 className="font-bold text-[12px] text-center uppercase text-[#212121]">
               Office Of the Controller Of Examinations
-            </h1>
+            </h1> */}
             {/* <h1 className="text-[#251e74]  font-bold text-3xl">
               مكتب مراقب الامتحانات
             </h1> */}
+            <img src="/english.png" className="h-6" alt="" />
             <img src="/arabic text.png" className="h-12" alt="" />
           </div>
         </div>
