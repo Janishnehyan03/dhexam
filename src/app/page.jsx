@@ -76,38 +76,38 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:flex lg:mt-10 justify-center ">
-            <a href="https://dhexams.000webhostapp.com/">
+            <a target="_blank" href="https://dhexams.000webhostapp.com/">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faSearch} className="h-4 mr-2" />
                 <p className="capitalize ">enquiry portal</p>
               </div>
             </a>
-            <a href="https://result.dhiu.in/">
+            <a target="_blank" href="https://result.dhiu.in/">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faBook} className="h-4 mr-2" />
                 <p className="capitalize ">result portal</p>
               </div>
             </a>
 
-            <a href="#">
+            <a target="_blank" href="#">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faPen} className="h-4 mr-2" />
                 <p className="capitalize ">admission portal</p>
               </div>
             </a>
-            <a href="https://pg.dhiu.in/studentlogin">
+            <a target="_blank" href="https://pg.dhiu.in/studentlogin">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faGraduationCap} className="h-4 mr-2" />
                 <p className="capitalize ">Student's Portal PG</p>
               </div>
             </a>
-            <a href="https://portal.dhiu.in/parent">
+            <a target="_blank" href="https://portal.dhiu.in/parent">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faPerson} className="h-4 mr-2" />
                 <p className="capitalize ">parent portal</p>
               </div>
             </a>
-            <a href="https://portal.dhiu.in/">
+            <a target="_blank" href="https://portal.dhiu.in/">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faBookAtlas} className="h-4 mr-2" />
                 <p className="capitalize ">academic portal</p>

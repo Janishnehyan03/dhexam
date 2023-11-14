@@ -30,13 +30,14 @@ function Navbar() {
         </Link>
 
         <div className="hidden lg:flex">
-          <div className="text-center">
-            <h1 className="font-bold text-[12px] text-center uppercase text-[#251e74]">
+          <div className="text-center flex flex-col items-center">
+            <h1 className="font-bold text-[12px] text-center uppercase text-[#212121]">
               Office Of the Controller Of Examinations
             </h1>
-            <h1 className="text-[#251e74]  font-bold text-3xl">
+            {/* <h1 className="text-[#251e74]  font-bold text-3xl">
               مكتب مراقب الامتحانات
-            </h1>
+            </h1> */}
+            <img src="/arabic text.png" className="h-12" alt="" />
           </div>
         </div>
         <div className="justify-center hidden lg:flex items-center">
