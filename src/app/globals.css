@@ -5,11 +5,8 @@
 :root {
   --beta: #0b3339;
 }
-
-/* Slider */
-.slide {
-  /* min-height: 100vh; */
-  background-size: cover !important;
+body {
+  /* background-size: cover !important; */
   background-attachment: fixed;
   background-position: center center !important;
   display: flex;
@@ -17,20 +14,47 @@
     url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Darul_Huda_Islamic_University_Chemmad.jpg);
   flex-direction: column;
   justify-content: center;
-  padding: 0 10% 2% 10%;
-  color: white;
-  gap: 20px;
-  padding: 3rem;
-
+  /* gap: 40px;
+  padding: 3rem; */
+}
+/* Slider */
+.slide {
+  /* background-attachment: fixed;
+  background-position: center center !important;
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Darul_Huda_Islamic_University_Chemmad.jpg);
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 3rem; */
 }
 .slider {
   width: 100%;
   overflow: hidden;
-  max-height: 35vh;
+  /* max-height: 35vh; */
 }
 /* .colorOverlay {
   background-color: var(--beta);
   height: 10vh;
   width: 1000%;
   opacity: 0.2;
+} */
+/* Add this CSS to your existing styles or create a new stylesheet */
+
+/* body {
+  background-image: url('../../public/images/darul-huda.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 128, 0.5); 
+  z-index: -1; 
 } */

@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 function Slider() {
   return (
-    <section>
+    <section className="my-4">
       <Swiper
         spaceBetween={50}
         navigation
@@ -26,10 +26,10 @@ function Slider() {
         <SwiperSlide>
           <div className="">
             <img
-              height={400}
-              width={400}
+              height={500}
+              width={500}
               className="object-fit h-full rounded-[10px] w-full"
-              src={"/images/darul-huda.jpg"}
+              src={"https://upload.wikimedia.org/wikipedia/commons/b/b2/Darul_Huda_Islamic_University_Chemmad.jpg"}
               alt="mockup"
             />
           </div>
@@ -37,10 +37,10 @@ function Slider() {
         <SwiperSlide>
           <div className="">
             <img
-              height={400}
-              width={400}
+              height={500}
+              width={500}
               className="object-fit h-full rounded-[10px] w-full"
-              src={"/images/dh.jpg"}
+              src={"https://lh3.googleusercontent.com/pw/ADCreHcSBXSrda_ffunxvLgjw59H7_fjTDklB6J79dd9OHzwDXKlMvyKL298fPbnaNNhNYXnLACkKDxR86n_NSB57vtEvnV2e2weCaJpsc5LfTnPHLsymQFITJuFa4VaO-KAnPbBSGG_TewqURtiJJ7I36Pt=w1546-h885-s-no-gm?authuser=0"}
               alt="mockup"
             />
           </div>
@@ -48,10 +48,10 @@ function Slider() {
         <SwiperSlide>
           <div className="">
             <img
-              height={400}
-              width={400}
+              height={500}
+              width={500}
               className="object-fit h-full rounded-[10px] w-full"
-              src={"/images/dh1.jpg"}
+              src={"https://lh3.googleusercontent.com/pw/ADCreHebPFKaUpP1vkGgDyA7QVfGscd4xPwvv_-um21j8iLk8xLYLtaCu-XNvEeUq3NHufeBGbyH_NyQpJ2V46LIOE7_eOLQhOdeqxuwtRYmTb-GB-UsCTuFMAJm37tAIJmPoL1v3-gVncak_I1lg624lJnx=w1574-h885-s-no-gm?authuser=0"}
               alt="mockup"
             />
           </div>
