@@ -12,7 +12,7 @@ import Swiper from "./components/Swiper";
 export default function Home() {
   return (
     <>
-      <section className="m-10" id="home">
+      <section className="m-3" id="home">
         <div className="mt-10">
           <div className="lg:grid lg:grid-flow-row gap-8 items-center text-neutral-600 sm:grid-cols-1  lg:grid-cols-3">
             <div className="bg-gray-200 flex flex-col m-auto py-10 items-center justify-center text-center mx-2 rounded-[10px]">
