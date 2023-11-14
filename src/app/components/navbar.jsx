@@ -26,8 +26,8 @@ function Navbar() {
             <h1 className="text-[#251e74]  font-bold text-xl">
               مكتب مراقب الامتحانات
             </h1> */}
-              <img src="/english.png" className="h-5" alt="" />
             <img src="/arabic text.png" className="h-10" alt="" />
+              <img src="/english.png" className="h-5" alt="" />
           </div>
         </Link>
 
@@ -39,8 +39,8 @@ function Navbar() {
             {/* <h1 className="text-[#251e74]  font-bold text-3xl">
               مكتب مراقب الامتحانات
             </h1> */}
-            <img src="/english.png" className="h-6" alt="" />
             <img src="/arabic text.png" className="h-12" alt="" />
+            <img src="/english.png" className="h-6" alt="" />
           </div>
         </div>
         <div className="justify-center hidden lg:flex items-center">
