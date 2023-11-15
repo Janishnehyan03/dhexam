@@ -75,7 +75,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="lg:flex lg:mt-10 justify-center ">
+          <div className="lg:flex lg:mt-10 justify-center lg:mb-3 mb-[2rem]">
             <a target="_blank" href="https://dhexams.000webhostapp.com/">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faSearch} className="h-4 mr-2" />
