@@ -23,7 +23,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faTwitter} className="h-4" />
         </a>
       </div> */}
-      <div className="flex justify-center">
+      <div className="flex justify-center px-3">
         <p className="max-w-2xl text-sm text-gray-300">
           Contact 2nd Floor, Sayid Umarali Shihab Thangal Administrative
           Building, Darul Huda Islamic University, Hidaya Nagar, Chemmad, Pin:
