@@ -25,9 +25,9 @@ body {
   /* max-height: 35vh; */
 }
 footer{
-  position: fixed;
+  /* position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 0; */
   width: 100%;
   background-color: red;
   color: white;
