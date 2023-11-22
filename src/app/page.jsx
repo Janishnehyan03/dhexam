@@ -44,7 +44,7 @@ export default function Home() {
                   <FontAwesomeIcon icon={faBell} className="h-4" />
                 </div>
                 <div className="ml-3 text-sm font-normal">
-                  DEGREE HALF YEARLY EXAMINATION SEP 2022; TIME TABLE PUBLISHED
+                  DEGREE HALF YEARLY EXAMINATION SEP 2023; TIME TABLE PUBLISHED
                 </div>
               </div>
               <div
@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
                 <div className="ml-3 text-sm font-normal">
                   PG RABEE' SEMESTER REGULAR/ SUPPLEMENTARY EXAMINATION, SEP-OCT
-                  2022; APPLY FOR SUPPLEMENTARY
+                  2023; APPLY FOR SUPPLEMENTARY
                 </div>
               </div>
               <div
@@ -69,13 +69,13 @@ export default function Home() {
                   <FontAwesomeIcon icon={faBell} className="h-4" />
                 </div>
                 <div className="ml-3 text-sm font-normal">
-                  MAHDIYYA EVEN SEMESTER EXAMINATION MAR 2022; TIME TABLE
+                  MAHDIYYA EVEN SEMESTER EXAMINATION MAR 2023; TIME TABLE
                   PUBLISHED
                 </div>
               </div>
             </div>
           </div>
-          <div className="lg:flex lg:mt-10 justify-center lg:mb-3 mb-[2rem]">
+          <div className="lg:flex lg:mt-3 justify-center lg:mb-3 mb-[2rem]">
             <a target="_blank" href="https://dhexams.000webhostapp.com/">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faSearch} className="h-4 mr-2" />
@@ -114,6 +114,11 @@ export default function Home() {
               </div>
             </a>
           </div>
+        </div>
+        <div className="flex items-center mt-5 justify-center">
+          <span className="text-center text-gray-400 font-bold p-2 border border-white rounded-full ">
+            Working Hours: 10:00 am to 4.00 p.m. (Friday Holiday)
+          </span>
         </div>
       </section>
     </>
