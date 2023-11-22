@@ -117,7 +117,7 @@ export default function Home() {
         </div>
         <div className="flex items-center mt-5 justify-center">
           <span className="text-center text-gray-400 font-bold p-2 border border-white rounded-full ">
-            Working Hours: 10:00 am to 4.00 p.m. (Friday Holiday)
+            Working Hours: 10:00 am to 4.00 p.m - Friday Holiday
           </span>
         </div>
       </section>
