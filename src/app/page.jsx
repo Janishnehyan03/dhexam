@@ -88,7 +88,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a target="_blank" href="#">
+            <a target="_blank" href="https://portal.dhiu.in/PreAdmission/Application/Create">
               <div className="flex mt-2 bg-[#11373d] py-5 mx-1 px-8 rounded-[30px] cursor-pointer  items-center justify-center text-white  hover:bg-white hover:text-[#11373d] border border-[#11373d] transition-colors duration-300">
                 <FontAwesomeIcon icon={faPen} className="h-4 mr-2" />
                 <p className="capitalize ">admission portal</p>

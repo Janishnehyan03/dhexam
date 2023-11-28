@@ -23,7 +23,7 @@ function Navbar() {
           href="/"
           className="hidden lg:flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src="/logo dh.png" className="h-24" alt="Logo" />
+          <img src="/logo dh.png" className="h-20" alt="Logo" />
         </a>
         <a href="/" className="lg:hidden flex">
           <img src="/logo dh.png" className="h-12" alt="Logo" />
@@ -79,10 +79,10 @@ function Navbar() {
               <p className="text-sm">www.dhiu.in</p>
             </a>
           </div>
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row  rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
+          <ul className="menu font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row  rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
             <li className="lg:border-r-2 mx-2 lg:border-gray-300">
               <a
-                href="#"
+                href="/"
                 className="block py-2   text-gray-600 md:bg-transparent md:text-gray-700 md:p-0 mr-2"
               >
                 Home
@@ -107,27 +107,104 @@ function Navbar() {
             </li>
             <li className="lg:border-r-2 mx-2 lg:border-gray-300">
               <a
-                href="#"
+                href="/notifications"
                 className="block py-2   text-gray-600 md:bg-transparent md:text-gray-700 md:p-0 mr-2"
               >
                 Notifications
               </a>
             </li>
-            <li className="mx-2">
+            {/* <li className="mx-2">
               <a
-                href="#"
+                target="_blank"
+                href="https://dhexams.000webhostapp.com/"
                 className="block py-2   text-gray-600 md:bg-transparent md:text-gray-700 md:p-0 mr-2"
               >
                 Enquiry Portal
               </a>
-            </li>
+            </li> */}
+            <div>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2  mr-8 mx-2 text-gray-600 md:bg-transparent md:text-gray-700 md:p-0"
+                >
+                  Useful Links
+                </a>
+                <ul className="submenu">
+                  <li className="hover:bg-gray-800 group ">
+                    <a
+                      href="https://dhexams.000webhostapp.com/"
+                      className="w-full  group-hover:text-white "
+                    >
+                      enquiry portal
+                    </a>
+                  </li>
+                  <li className="hover:bg-gray-800 group ">
+                    <a
+                      href="https://result.dhiu.in/"
+                      className="w-full  group-hover:text-white "
+                    >
+                      result portal
+                    </a>
+                  </li>
+                  <li className="hover:bg-gray-800 group ">
+                    <a
+                      href="https://portal.dhiu.in/PreAdmission/Application/Create"
+                      className="w-full  group-hover:text-white "
+                    >
+                      admission portal
+                    </a>
+                  </li>
+                  <li className="hover:bg-gray-800 group ">
+                    <a
+                      href="https://portal.dhiu.in/PreAdmission/Status"
+                      className="w-full  group-hover:text-white "
+                    >
+                      admission status
+                    </a>
+                  </li>
+                  <li className="hover:bg-gray-800 group ">
+                    <a
+                      href="#"
+                      className="w-full  group-hover:text-white "
+                    >
+                      result portal
+                    </a>
+                  </li>
+                  <li className="hover:bg-gray-800 group ">
+                    <a
+                      href="https://pg.dhiu.in/studentlogin"
+                      className="w-full  group-hover:text-white "
+                    >
+                      Student's Portal PG
+                    </a>
+                  </li>
+                  <li className="hover:bg-gray-800 group ">
+                    <a
+                      href="https://portal.dhiu.in/parent"
+                      className="w-full  group-hover:text-white "
+                    >
+                      parent portal
+                    </a>
+                  </li>
+                  <li className="hover:bg-gray-800 group ">
+                    <a
+                      href="https://portal.dhiu.in/"
+                      className="w-full  group-hover:text-white "
+                    >
+                      academic portal
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </div>
           </ul>
         </div>
       </div>
       <div className="lg:hidden flex flex-col items-center justify-center text-gray-500 ml-4 absolute bottom-2 mb-3">
         <h1 className="text-center font-bold mb-2">Contact Us</h1>
         <a href="tel:918547290575" className="flex items-center space-x-2">
-          <FontAwesomeIcon icon={faPhone} /> <p></p>
+          <FontAwesomeIcon icon={faPhone} /> <p>+918547290575</p>
         </a>
         <a href="mailto:exams@dhiu.in" className="flex items-center space-x-2">
           <FontAwesomeIcon icon={faEnvelope} /> <p>exams@dhiu.in</p>
