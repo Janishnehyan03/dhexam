@@ -164,10 +164,7 @@ function Navbar() {
                     </a>
                   </li>
                   <li className="hover:bg-gray-800 group ">
-                    <a
-                      href="#"
-                      className="w-full  group-hover:text-white "
-                    >
+                    <a href="#" className="w-full  group-hover:text-white ">
                       result portal
                     </a>
                   </li>
@@ -199,19 +196,25 @@ function Navbar() {
               </li>
             </div>
           </ul>
+          <div className="lg:hidden flex flex-col items-center justify-center text-gray-500 ml-4 absolute bottom-2 mb-3">
+            <h1 className="text-center font-bold mb-2">Contact Us</h1>
+            <a href="tel:918547290575" className="flex items-center space-x-2">
+              <FontAwesomeIcon icon={faPhone} /> <p>+918547290575</p>
+            </a>
+            <a
+              href="mailto:exams@dhiu.in"
+              className="flex items-center space-x-2"
+            >
+              <FontAwesomeIcon icon={faEnvelope} /> <p>exams@dhiu.in</p>
+            </a>
+            <a
+              href="https://www.dhiu.in"
+              className="flex items-center space-x-2"
+            >
+              <FontAwesomeIcon icon={faGlobe} /> <p>www.dhiu.in</p>
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="lg:hidden flex flex-col items-center justify-center text-gray-500 ml-4 absolute bottom-2 mb-3">
-        <h1 className="text-center font-bold mb-2">Contact Us</h1>
-        <a href="tel:918547290575" className="flex items-center space-x-2">
-          <FontAwesomeIcon icon={faPhone} /> <p>+918547290575</p>
-        </a>
-        <a href="mailto:exams@dhiu.in" className="flex items-center space-x-2">
-          <FontAwesomeIcon icon={faEnvelope} /> <p>exams@dhiu.in</p>
-        </a>
-        <a href="https://www.dhiu.in" className="flex items-center space-x-2">
-          <FontAwesomeIcon icon={faGlobe} /> <p>www.dhiu.in</p>
-        </a>
       </div>
     </nav>
   );

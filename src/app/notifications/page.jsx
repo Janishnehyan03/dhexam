@@ -4,9 +4,9 @@ import React from "react";
 
 function page() {
   return (
-    <div className="h-screen bg-white">
+    <div className="h-screen bg-white ">
         <h1 className="text-center font-bold text-2xl">Notifications</h1>
-      <div className="lg:grid grid-cols-3 gap-2 ">
+      <div className="lg:grid grid-cols-3 mx-4 gap-2 ">
         <div
           id="toast-default"
           className="flex items-center hover:bg-gray-800 cursor-pointer transition w-full m-2 p-4 text-gray-100 bg-gray-700 rounded-lg shadow "
