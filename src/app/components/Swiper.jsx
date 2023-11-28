@@ -29,7 +29,9 @@ function Slider() {
               height={500}
               width={500}
               className="object-fit h-full rounded-[10px] w-full"
-              src={"https://upload.wikimedia.org/wikipedia/commons/b/b2/Darul_Huda_Islamic_University_Chemmad.jpg"}
+              src={
+                "https://lh3.googleusercontent.com/pw/ADCreHcmv_RU6NxBflOXLNAasr8a3q1qBYqmID25-vU-fK8YnMi-mg6bSgtoU2xR-txxxLfJcqrHoYJoZmoVJkiPc-iBikFECpZkQKPP25KMV2xNYHdeY5gd48AIWeUKyIdYuDM72RP-38llVTNUc1jeE3kM=w1574-h885-s-no-gm?authuser=0"
+              }
               alt="mockup"
             />
           </div>
@@ -40,7 +42,9 @@ function Slider() {
               height={500}
               width={500}
               className="object-fit h-full rounded-[10px] w-full"
-              src={"https://lh3.googleusercontent.com/pw/ADCreHcSBXSrda_ffunxvLgjw59H7_fjTDklB6J79dd9OHzwDXKlMvyKL298fPbnaNNhNYXnLACkKDxR86n_NSB57vtEvnV2e2weCaJpsc5LfTnPHLsymQFITJuFa4VaO-KAnPbBSGG_TewqURtiJJ7I36Pt=w1546-h885-s-no-gm?authuser=0"}
+              src={
+                "https://lh3.googleusercontent.com/pw/ADCreHcz1oijbzbXXxwK4q0J4bobQOpNWDoYWFlTSkGGuSnUHSrMTVoXVIF1z1gunJnQg03RXLdvJWUDlf_7NIhPTbG8alIPFxadsdtO237w1h8QKeF7cGKvl7htpC0pAp8FQIQaDoOh0FQ7rM-G90HLwZGB=w960-h540-s-no-gm?authuser=0"
+              }
               alt="mockup"
             />
           </div>
@@ -51,7 +55,9 @@ function Slider() {
               height={500}
               width={500}
               className="object-fit h-full rounded-[10px] w-full"
-              src={"https://lh3.googleusercontent.com/pw/ADCreHebPFKaUpP1vkGgDyA7QVfGscd4xPwvv_-um21j8iLk8xLYLtaCu-XNvEeUq3NHufeBGbyH_NyQpJ2V46LIOE7_eOLQhOdeqxuwtRYmTb-GB-UsCTuFMAJm37tAIJmPoL1v3-gVncak_I1lg624lJnx=w1574-h885-s-no-gm?authuser=0"}
+              src={
+                "https://lh3.googleusercontent.com/pw/ADCreHebPFKaUpP1vkGgDyA7QVfGscd4xPwvv_-um21j8iLk8xLYLtaCu-XNvEeUq3NHufeBGbyH_NyQpJ2V46LIOE7_eOLQhOdeqxuwtRYmTb-GB-UsCTuFMAJm37tAIJmPoL1v3-gVncak_I1lg624lJnx=w1574-h885-s-no-gm?authuser=0"
+              }
               alt="mockup"
             />
           </div>

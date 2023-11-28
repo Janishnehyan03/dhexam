@@ -17,9 +17,8 @@ export default function Home() {
         <div className="mt-10">
           <div className="lg:grid lg:grid-flow-row gap-8 items-center text-neutral-600 sm:grid-cols-1  lg:grid-cols-3">
             <div className="bg-gray-900 bg-opacity-60 flex flex-col m-auto py-10 items-center justify-center text-center mx-2 rounded-[10px]">
-              <h2 className="font-bold  text-white text-xl  capitalize">
-                Office of Examinations
-                <span className="ml-2 ">(DHIU)</span>
+              <h2 className="font-bold  text-white text-xl  uppercase">
+                Office of The Controller <br /> Of  Examinations
               </h2>
               <p className="lg:ml-[10px] mt-3 text-white text-sm px-6">
                 The DHIU Examination Board manages exam-related tasks, from
@@ -40,7 +39,7 @@ export default function Home() {
                 className="flex items-center hover:bg-gray-800 cursor-pointer transition w-full m-2 p-4 text-gray-100 bg-gray-900 rounded-lg shadow "
                 role="alert"
               >
-                <div className="inline-flex items-center  justify-center flex-shrink-0 w-8 h-8 text-blue-500 bg-blue-100 rounded-lg ">
+                <div className="inline-flex items-center  justify-center flex-shrink-0 w-8 h-8 text-gray-500 bg-gray-100 rounded-lg ">
                   <FontAwesomeIcon icon={faBell} className="h-4" />
                 </div>
                 <div className="ml-3 text-sm font-normal">
@@ -52,7 +51,7 @@ export default function Home() {
                 className="flex items-center w-full m-2 p-4 hover:bg-gray-800 cursor-pointer transition text-gray-100 bg-gray-900 rounded-lg shadow "
                 role="alert"
               >
-                <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-blue-500 bg-blue-100 rounded-lg ">
+                <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-gray-500 bg-gray-100 rounded-lg ">
                   <FontAwesomeIcon icon={faBell} className="h-4" />
                 </div>
                 <div className="ml-3 text-sm font-normal">
@@ -65,7 +64,7 @@ export default function Home() {
                 className="flex items-center w-full m-2 p-4 hover:bg-gray-800 cursor-pointer transition text-gray-100 bg-gray-900 rounded-lg shadow "
                 role="alert"
               >
-                <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-blue-500 bg-blue-100 rounded-lg ">
+                <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-gray-500 bg-gray-100 rounded-lg ">
                   <FontAwesomeIcon icon={faBell} className="h-4" />
                 </div>
                 <div className="ml-3 text-sm font-normal">
@@ -115,8 +114,8 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="flex items-center mt-5 justify-center px-3">
-          <span className="text-center text-gray-400 font-bold p-2 border border-white rounded-full ">
+        <div className="flex  items-center mt-5 justify-center px-3">
+          <span className="text-center bg-gray-900 bg-opacity-60 text-gray-400 font-bold px-3 py-2 border border-white rounded-full ">
             Working Hours: 10:00 am to 4.00 p.m - Friday Holiday
           </span>
         </div>
